@@ -73,6 +73,6 @@ const search = (query) => {
 console.log(search("Nico"));
 console.log("a", search("a"));
 
-const array = [["🐸", "🐱"], "🐹", ["🐯"]];
-const rta7 = array.flat();
-console.log(rta7);
+const array = ["a", "bb", "ccc"];
+const rta8 = array.map((item) => item.length);
+console.log(rta8);
